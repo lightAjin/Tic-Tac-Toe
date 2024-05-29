@@ -79,7 +79,8 @@ const disabledBoxes=()=>{
 }
 const newgame=()=>{
     enabledBoxes();
-    count=0
+    count=0;
+     turnO=true;
     msgContainer.classList.add("hide");
 }
 const gameDraw = () => {
